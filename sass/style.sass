@@ -1,0 +1,154 @@
+body
+	//очистим все стоковые отступы
+	margin: 0
+	padding: 0
+
+.email-container
+	//родительский шрифт будет sans-serif
+	font-family: sans-serif
+	//размер 14 пикселей
+	font-size: 14px
+	//шрифт белый
+	color: #666
+
+.email-header
+	//цвет фона #574943, и будет фоном в том случае если картинка не отобразиться на некоторых емаилах
+	background-color: #574943
+	//картинка фона
+	background-image: url(../img/03.2.jpg)
+	//фон, центрируем сверху и слева
+	background-position: center 
+	//шрифт белый
+	color: #fff
+	//величина внутреннего отступа от верхнего края 30 пикселей
+	padding-top: 30px
+
+.email-logo
+	//логотип будет распологаться слева
+	float: left
+	img
+		display: inline-block
+		height: 130px
+
+.email-center
+	//отступ от каждого края авто, для адаптивности
+	margin: auto
+	//максимальная шириная класа
+	max-width: 600px
+	//текст в родительском класе будет распологаться по центру
+	text-align: center
+	//внутренние отступы при мобильных разрешениях
+	padding: 0 20px
+
+
+.email-social-wrap
+	//расположение справа
+	float: right
+	a
+		//отступ между социальными иконками
+		margin-left: 7px
+
+.email-header-top
+	//отступ от верхнего края 120 пикселей
+	padding-top: 80px
+	// отступ от нижнего края 120 пикселей
+	margin-bottom: 100px
+	// расположение текста по центру
+	text-align: center
+	// текст отображаться будет в заглавных буквах
+	text-transform: uppercase
+	// размер текста 24 пикселя
+	font-size: 24px
+	// насыщенность шрифта будет bold 570
+	font-weight: bold
+	//междублочный интервал 43 пикселя
+	line-height: 34px
+	//Отменяет обтекание элемента одновременно с правого и левого края
+	clear: both
+
+
+
+.email-button,
+.product-button	
+	//элемент блочно строчный
+	display: inline-block
+	// внутрение отступы, сверху 11 пикселей, справа 45 пикселей
+	padding: 11px 45px
+	//фон кнопки зелённый
+	background-color: #f95746
+	//края скругляем на 5 пикселей
+	border-radius: 5px
+	//цвет шрифта белый
+	color: #fff
+	//нижнее подчёркивание убераем
+	text-decoration: none
+	//текст в заглавных буквах
+	text-transform: uppercase
+	//отступ снизу 75 пикселей
+	margin-bottom: 75px
+
+.email-tizers-wrap	
+	background-color: #F1F1F2
+	border-bottom: 5px solid #D5D5D5
+	margin-top: -40px
+	padding: 34px 0 0
+
+
+.email-tizer-item
+	display: inline-block
+	width: 150px
+	vertical-align: top
+	padding: 0 20px
+	padding-bottom: 20px
+	img
+		height: 70px
+
+
+
+.email-sale-text
+	display: inline-block
+	padding: 5px 40px 
+	background-color: #fff
+	color: #555
+	text-decoration: none
+	text-transform: uppercase
+	margin-top: 50px
+	margin-bottom: 50px
+	border: 1px solid #555
+	//муждустрочный интервал
+	letter-spacing: 3px
+	//междублочный интервал, верх и низ
+	line-height: 20px
+
+.email-products-wrap
+	img
+		width: 100%
+		border-radius: 5px
+
+.email-products-item
+	width: 250px
+	display: inline-block
+	padding: 0 20px
+	border-bottom: #999 1px solid
+	margin-bottom: 30px
+
+
+.email.price
+	color: #333
+	font-weight: bold
+	margin-top: 15px
+	font-size: 16px	
+
+.product-button
+	margin-top: 15px
+	margin-bottom: 50px
+	background-color: #222 
+
+.email-footer
+ background-color: #999
+ padding: 20px 0
+ text-align: center
+ font-size: 12px
+ color: #fff
+ a
+ 	color: #fff

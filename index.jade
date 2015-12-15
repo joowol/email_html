@@ -1,0 +1,58 @@
+doctype html
+html
+	head
+		link(rel="stylesheet", href="css/style.css")
+		meta(charset="utf-8")
+
+	body
+		.email-container
+			.email-header 
+				
+				.email-center
+					.email_header-topline
+						a.email-logo(href="//site.com")
+							img(src="img/222.png", alt="Logo")
+						
+						.email-social-wrap
+							a(href="#")
+										img(src="img/soc_twitter.png", alt="Alt")
+							a(href="#")
+										img(src="img/soc_fb.png", alt="Alt")
+							a(href="#")
+										img(src="img/soc_vk.png", alt="Alt")		
+
+					.email-header-top.
+						Откройте для себя новые страны,<br>прикоснитесь к культуре других народов, расширьте свой кругозор.
+
+					a(href="#").email-button Подробнее
+			
+			.email-content
+				.email-center			
+					.email-tizers-wrap
+						.email-tizer-item
+							img(src="img/icon_6.png", alt="Alt")
+							p горящие и регулярные туры
+						.email-tizer-item
+							img(src="img/icon_5.png", alt="Alt")
+							p удобный поиск цен
+						.email-tizer-item
+							img(src="img/icon_4.png", alt="Alt")
+							p статьи и информация о странах
+
+					.email-sale-text Бронируйте сейчас и полчите скидку
+
+					.email-products-wrap
+						- for (var x = 5; x < 9; x++)
+							.email-products-item
+								a(href="")
+									img(src="img/items/" + x + ".jpg", alt="Alt")
+								.email.price Скидки до 20%
+								a(href="#").product-button Заказать
+
+
+			.email-footer.
+				ООО "Paradise travel" <a href="#">Отписаться от рассылки</a>
+									
+
+
+
